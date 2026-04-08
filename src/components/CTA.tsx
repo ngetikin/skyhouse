@@ -29,8 +29,13 @@ export default function CTA() {
           </p>
           
           <Button size="lg" className="h-16 px-12 text-xl glow-purple" asChild>
-            <a href={COMMUNITY_DATA.SOCIALS.DISCORD} target="_blank" rel="noopener noreferrer">
-              <MessageSquare className="w-6 h-6 mr-3" />
+            <a
+              href={COMMUNITY_DATA.SOCIALS.DISCORD}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-3"
+            >
+              <MessageSquare className="w-6 h-6" />
               Join Discord Now
             </a>
           </Button>

@@ -32,14 +32,19 @@ export default function Hero() {
             
             <div className="flex flex-wrap gap-4">
               <Button size="lg" className="h-14 px-8 text-lg glow-purple" asChild>
-                <a href={COMMUNITY_DATA.SOCIALS.DISCORD} target="_blank" rel="noopener noreferrer">
-                  <MessageSquare className="w-5 h-5 mr-2" />
+                <a
+                  href={COMMUNITY_DATA.SOCIALS.DISCORD}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-2"
+                >
+                  <MessageSquare className="w-5 h-5" />
                   Join Server
                 </a>
               </Button>
               <Button size="lg" variant="outline" className="h-14 px-8 text-lg border-primary/20 hover:bg-primary/5" asChild>
-                <a href="#about">
-                  <Compass className="w-5 h-5 mr-2" />
+                <a href="#about" className="inline-flex items-center gap-2">
+                  <Compass className="w-5 h-5" />
                   Explore Community
                 </a>
               </Button>
